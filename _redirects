@@ -1,0 +1,5 @@
+# Cloudflare Pages Redirects
+# www → apex redirect (301 permanent)
+https://www.jcjmgroup.in/* https://jcjmgroup.in/:splat 301
+
+# HTTP → HTTPS is handled by Cloudflare automatically
