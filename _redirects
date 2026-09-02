@@ -1,5 +1,7 @@
 # Cloudflare Pages Redirects
-# www → apex redirect (301 permanent)
-https://www.jcjmgroup.in/* https://jcjmgroup.in/:splat 301
+# NOTE: Cloudflare Pages only allows relative source paths here.
+# The www → apex redirect is configured in the Cloudflare dashboard
+# under Redirect Rules (or Bulk Redirects).
 
-# HTTP → HTTPS is handled by Cloudflare automatically
+# Catch-all: any path not found → home (optional, can be removed)
+/404 / 301
