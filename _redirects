@@ -1,7 +1,0 @@
-# Cloudflare Pages Redirects
-# NOTE: Cloudflare Pages only allows relative source paths here.
-# The www → apex redirect is configured in the Cloudflare dashboard
-# under Redirect Rules (or Bulk Redirects).
-
-# Catch-all: any path not found → home (optional, can be removed)
-/404 / 301
